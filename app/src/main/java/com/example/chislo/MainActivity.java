@@ -50,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
             tvInfo.setText(getResources().getString(R.string.try_to_guess));
             gameFinished = false;
         }
+        etInput.setText("");
     }
+
 
 
 
